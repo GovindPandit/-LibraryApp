@@ -1,0 +1,25 @@
+Donwload mysql zip file from following link:
+	-https://docs.google.com/uc?export=download&id=0B-9Vl9hXQBBhb0ZBdDdHTUhKVW8
+	-extract zip file
+	-install your software.
+	
+
+Donwload mysql jar from following link:
+	-https://mvnrepository.com/artifact/mysql/mysql-connector-java/5.0.5
+	-copy jar file and paste it in lib folder under your project.
+
+
+register.jsp
+	-username
+	-email
+	-password
+
+RegistrationServlet.java
+	-collect data from register.jsp and store it in model(User.java).
+	-store model data in database.
+
+User.java	(model)
+	-username
+	-email
+	-password
+	-getters and setters
